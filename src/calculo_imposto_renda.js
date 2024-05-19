@@ -18,7 +18,7 @@ function calcularImpostoRenda(salarioBruto){
         descontoImposto = salarioBruto * 0.275;
     }
 
-    return descontoImposto;
+    return descontoImposto.toFixed(2);
 }
 
 module.exports = calcularImpostoRenda;

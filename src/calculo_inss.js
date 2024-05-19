@@ -20,7 +20,7 @@ function calcularInss(salarioBruto){
         descontoInss = tetoInss
     }
 
-    return descontoInss;
+    return descontoInss.toFixed(2);
 }
 
 module.exports = calcularInss;
